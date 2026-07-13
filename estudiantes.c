@@ -78,7 +78,7 @@ int registrarEstudiantePorAdmin() {
 	fprintf(archivo, "%s;%s;%s;%d;%s\n", id, nombre, carrera, semestre, correo);
 	fclose(archivo);
 	
-	printf("[OK] Estudiante guardado con éxito.\n");
+	printf("[OK] Estudiante guardado con exito.\n");
 	printf("Presione ENTER para continuar..."); getchar();
 	return 1;
 }
